@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import negativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-negative-binomial@esm/index.mjs';
+import negativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-negative-binomial@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-negative-binomial@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-negative-binomial@v0.1.1-esm/index.mjs';
 ```
 
 #### negativeBinomial( shape, r, p\[, options] )
@@ -348,7 +348,7 @@ var sz = random.byteLength;
 
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import negativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-negative-binomial@esm/index.mjs';
+import negativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-negative-binomial@v0.1.1-esm/index.mjs';
 
 // Create a function for generating random arrays originating from the same state:
 var random = negativeBinomial.factory({
